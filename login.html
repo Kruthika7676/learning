@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        /* CSS code for styling the login page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+            border: 1px solid #cccccc;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #999999;
+        }
+
+        input[type="submit"] {
+            background-color: #333333;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        </style>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <form action="login.php" method="post">
+        <p>Username: <input type="text" name="username" required></p>
+        <p>Password: <input type="password" name="password" required></p>
+        <p><input type="submit" value="Login"></p>
+    </form>
+</body>
+</html>
